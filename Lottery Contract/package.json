@@ -1,0 +1,22 @@
+{
+  "name": "ethereum-lottery-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node deploy.js"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.7.0",
+    "mocha": "^6.2.2",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.0.0-beta.26"
+  },
+  "author": "Sourabh Bagrecha",
+  "license": "ISC"
+}
